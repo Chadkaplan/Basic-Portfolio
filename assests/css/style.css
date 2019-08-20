@@ -1,0 +1,56 @@
+/* this is the backdrop for my page from subtle backgrounds*/
+body{
+    background-image: url("../images/memphis-mini.png");
+    margin: 0%
+}
+/* header style */
+header{
+    width: 100%;
+    border-bottom: solid darkgray 1px;
+    height: 70px;
+}
+/* the top bar part */
+.headerContainer{
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1{
+    background: lightskyblue;
+    height: 30px;
+    padding: 20px 10px;
+    float: left;
+    margin: 0;
+}
+
+nav{
+    float: right;
+    padding: 20px 0 0 0;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px 0 0;
+}
+
+section{
+    width: 960px;
+    margin: 30px auto;
+    background:beige;
+    padding: 20px;
+    overflow: auto;
+}
+img{
+    float: left;
+    margin: 0 15px 15px 0;
+}
+footer{
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    text-align: center;
+    border-top: solid gray 1px;
+    padding-top: 10px;
+}
