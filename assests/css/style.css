@@ -10,7 +10,7 @@ header{
     height: 70px;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     position: relative;
-    left: -10px;
+    left: -11px;
 }
 /* the top bar part */
 .headerContainer{
@@ -67,4 +67,10 @@ footer{
 }
 img{
     height: 200px;
+}
+/* Making "Contact" header its own line */
+.messageContainer{
+    margin: 0 auto;
+    width: 500px;
+    height: 100px;
 }
