@@ -1,7 +1,9 @@
 /* this is the backdrop for my page from subtle backgrounds*/
 body{
     background-image: url("../images/memphis-mini.png");
-    margin: 0%
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    min-height: 100%;
 }
 /* header style */
 header{
@@ -43,7 +45,7 @@ a{
 h2{
     color: #4aaaa5;
 }
-
+/* input container */
 section{
     width: 960px;
     margin: 40px auto;
@@ -53,10 +55,11 @@ section{
     border: 1px black solid;
    }
 /*this makes the text wrap around my beautiful face*/
-img{
+.floatLeft{
     float: left;
-    margin: 0 15px 15px 0;
+    margin: 15px;
 }
+/* copyright at the bottom */
 footer{
     width: 100%;
     background-color: #666666;
@@ -71,6 +74,40 @@ img{
 /* Making "Contact" header its own line */
 .messageContainer{
     margin: 0 auto;
-    width: 500px;
-    height: 100px;
+    width: 950px;
+    height: 200px;
+}
+/* Resizing of the input bars */
+.input{
+    width: 950px;
+    margin: 0 auto;
+}
+.floatClear{
+    float: right;
+    clear: both;
+    margin: 10px;
+    overflow: auto;
+}
+.portfolioPic{
+    float: left;
+    height: 200px;
+    margin: 15px;
+    overflow: auto;
+}
+.portfolioPicClear{
+    float: left;
+    clear: both;
+    height: 200px;
+    margin: 15px;
+    overflow: auto;
+}
+.portfolioContainer{
+    margin: 0 auto;
+    height: 700px;
+    width: 900px;
+    border: solid red 1px;
+}
+#picTwo{
+    position: relative;
+    right: 0px;
 }
